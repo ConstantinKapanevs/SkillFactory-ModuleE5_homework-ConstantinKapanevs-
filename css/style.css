@@ -42,14 +42,12 @@
 .button:active {
     padding: 0 10px 3px 0;
     box-shadow: 18px 10px 10px rgb(3, 15, 73);
-
 }
 
 @keyframes animation {
     from {
         padding-left: 500px;
         width: 200%;
-
     }
 
     to {

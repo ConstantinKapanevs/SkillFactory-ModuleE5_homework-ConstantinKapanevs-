@@ -26,7 +26,5 @@ const nextPicture = function () {
 
 }
 
-
-
 back.addEventListener('click', previousPicture)
 forward.addEventListener('click', nextPicture)
