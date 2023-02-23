@@ -1,7 +1,6 @@
 let position = 0;
 let myPosition = document.getElementById('main');
 
-
 const pictures = ['Chess1.jpg', 'Chess2.jpg', 'Chess3.jpg',
     'Chess4.jpg', 'Chess5.jpg', 'Chess6.jpg', 'Chess7.jpg',
     'Chess8.jpg', 'Chess9.jpg', 'Chess10.jpg'];
@@ -20,7 +19,6 @@ const previousPicture = function () {
         position -= 1
     } else { position = pictures.length - 1 }
 
-    console.log(position)
     pictureInserting();
 }
 
@@ -32,7 +30,6 @@ const nextPicture = function () {
         position += 1
     } else { position = 0 }
 
-    console.log(position)
     pictureInserting();
 }
 
